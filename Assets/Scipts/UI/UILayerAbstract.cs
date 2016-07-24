@@ -46,6 +46,5 @@ namespace Assets.Scripts.UI
         protected virtual void _OnUpdateOnActive() { }
         public Canvas layerCanvas { get; private set; }     
         public abstract UILayerType uiLayerType { get; }
-
     }
 }
